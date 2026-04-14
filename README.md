@@ -1,5 +1,17 @@
 # Elly AI Agent
 
+## Demo
+
+This demo shows:
+
+- natural language interaction (LLM)
+- memory system (locations)
+- real-time control (follow / goto)
+- autonomous systems (sleep sync)
+- gameplay features (farm, fight, mine)
+
+[Watch the full demo](https://youtu.be/xxxxxxx](https://youtu.be/a2Q9cDu7Eqg))
+
 Elly is a modular Minecraft AI companion built with a real-time Node.js brain and a custom Forge TCP bridge.
 
 The project combines deterministic gameplay logic with a controlled LLM personality layer (via Ollama), designed to avoid latency during critical actions.
