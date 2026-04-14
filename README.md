@@ -10,7 +10,7 @@ This demo shows:
 - autonomous systems (sleep sync)
 - gameplay features (farm, fight, mine)
 
-[Watch the full demo](https://youtu.be/xxxxxxx](https://youtu.be/a2Q9cDu7Eqg))
+[Watch the full demo]((https://youtu.be/a2Q9cDu7Eqg))
 
 Elly is a modular Minecraft AI companion built with a real-time Node.js brain and a custom Forge TCP bridge.
 
