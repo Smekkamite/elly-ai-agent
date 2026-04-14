@@ -1,16 +1,19 @@
 # Elly AI Agent
 
-## Demo
+## 🎥 Demo
 
 This demo shows:
 
-- natural language interaction (LLM)
-- memory system (locations)
-- real-time control (follow / goto)
-- autonomous systems (sleep sync)
-- gameplay features (farm, fight, mine)
+* natural language interaction (LLM)
+* memory system (locations)
+* real-time control (follow / goto)
+* autonomous systems (sleep sync)
+* gameplay features (farm, fight, mine)
 
-[Watch the full demo](https://youtu.be/a2Q9cDu7Eqg)
+▶️ **Watch the demo video**:
+https://youtu.be/a2Q9cDu7Eqg
+
+---
 
 Elly is a modular Minecraft AI companion built with a real-time Node.js brain and a custom Forge TCP bridge.
 
@@ -37,7 +40,9 @@ The project combines deterministic gameplay logic with a controlled LLM personal
 
 ## Architecture
 
-### Node.js (AI Brain)
+### Components
+
+#### Node.js (AI Brain)
 
 * `bot.js` → main loop and orchestration
 * `brain/` → combat + reflex systems
@@ -46,7 +51,7 @@ The project combines deterministic gameplay logic with a controlled LLM personal
 * `memory.json` → persistent runtime state
 * `personality.json` → LLM behavior definition
 
-### Forge Mod (Bridge)
+#### Forge Mod (Bridge)
 
 * TCP server inside Minecraft
 * Translates commands into in-game actions
@@ -80,11 +85,7 @@ Elly requires **two Minecraft clients** to work correctly.
 
 A custom NPC-style implementation is possible, but it would require a much more complex architecture.
 
-This project instead uses a dedicated Minecraft client for Elly and a separate player client, which provides a cleaner and more reliable setup for real-time control, debugging, and future expansion.
-So the system is split:
-
-* **Client 1 (Elly)** → runs the Forge mod + TCP bridge
-* **Client 2 (Player)** → used by you to control the bot
+This project instead uses a dedicated Minecraft client for Elly and a separate player client, providing a cleaner and more reliable setup for real-time control, debugging, and future expansion.
 
 ---
 
@@ -107,9 +108,9 @@ So the system is split:
 ### Offline Clients
 
 Offline clients are supported only if the server allows them (`online-mode=false`).
-
 Otherwise, a valid Minecraft account is required.
 
+---
 
 ### Example
 
