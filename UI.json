@@ -1,0 +1,8 @@
+{
+  "botName": "insertname",
+  "instancePath": "",
+  "serverAddress": "",
+  "ollamaEnabled": true,
+  "systemMessages": false,
+  "chatCooldownMs": 1200
+}

@@ -1,0 +1,59 @@
+{
+  "mode": "auto",
+  "owner": null,
+  "facts": [],
+  "recent": [],
+  "locations": {},
+  "guard": {
+    "enabled": true,
+    "notifyOnly": false,
+    "postRetreat": null
+  },
+  "combat": {
+    "enabled": false,
+    "mode": "normal",
+    "targetKind": "hostile",
+    "target": null,
+    "targetLockedAt": 0,
+    "lastCombatAt": 0,
+    "lastDamageAt": 0,
+    "lastDamageHp": null,
+    "lastBowShotAt": 0,
+    "lastRepositionAt": 0,
+    "lastSpeechAt": 0,
+    "lastFollowResumeAt": 0,
+    "lastLookPlayerAt": 0
+  },
+  "active_goal": null,
+  "goal_queue": [],
+  "areas": {},
+  "capabilities": {
+    "sleep": null,
+    "use": null
+  },
+  "world_snapshot": {
+    "at": 0,
+    "pos": null,
+    "biome": null,
+    "dim": null,
+    "envRaw": null,
+    "envInfo": null,
+    "hp": null,
+    "food": null,
+    "hostiles": null,
+    "hostiles_detail": [],
+    "passives_detail": [],
+    "inventory": {},
+    "last_action": null,
+    "last_action_at": 0,
+    "last_error": "timeout:loop_telemetry",
+    "consecutive_timeouts": 16,
+    "last_retreat_at": 0,
+    "last_ambient_at": 0,
+    "owner_sleeping": false,
+    "last_sleep_sync_at": 0,
+    "last_eat_at": 0,
+    "last_respawn_at": 0,
+    "last_armor_check_at": 0
+  }
+}
