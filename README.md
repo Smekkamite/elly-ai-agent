@@ -10,7 +10,8 @@ This demo shows:
 * autonomous systems (sleep sync)
 * gameplay features (farm, fight, mine)
 
-▶️ **Watch the demo video**:
+▶️ **Watch the demo video**
+
 https://youtu.be/a2Q9cDu7Eqg
 
 ---
