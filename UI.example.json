@@ -1,0 +1,12 @@
+{
+  "botName": "elly",
+  "instancePath": "C:/path/to/PrismLauncher/instances/ELLY/minecraft",
+  "serverAddress": "",
+  "ollamaEnabled": true,
+  "systemMessages": true,
+  "chatCooldownMs": 1200,
+  "ownerName": "YourMinecraftName",
+  "allowOwnerClaim": false,
+  "maxLogQueue": 500,
+  "goalResumeMaxAgeMs": 900000
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "mode": "auto",
+  "owner": "YourMinecraftName",
+  "facts": [],
+  "recent": [],
+  "locations": {},
+  "guard": {
+    "enabled": true,
+    "notifyOnly": false,
+    "postRetreat": null
+  },
+  "combat": {
+    "enabled": false,
+    "mode": "normal",
+    "targetKind": "hostile"
+  },
+  "active_goal": null,
+  "goal_queue": [],
+  "areas": {},
+  "capabilities": {
+    "sleep": null,
+    "use": null
+  },
+  "world_snapshot": {}
+}

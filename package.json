@@ -1,0 +1,25 @@
+{
+  "name": "elly-ai-bot",
+  "version": "1.1.0",
+  "description": "Deterministic Minecraft companion brain with a local LLM personality layer.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "validate": "node bot.js --validate",
+    "check": "node --check bot.js && node --check ellyApi.js && node --check tcpLineClient.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "minecraft",
+    "agent",
+    "forge",
+    "ollama"
+  ],
+  "author": "Smekkamite",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "tail": "^2.2.6"
+  }
+}

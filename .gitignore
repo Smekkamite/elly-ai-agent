@@ -1,0 +1,34 @@
+# Local configuration and mutable state
+.env
+UI.json
+memory.json
+*.broken.*
+*.tmp.*
+
+# Secrets
+sk-*
+*.pem
+*.key
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Forge / Gradle
+Ellybridge/.gradle/
+Ellybridge/build/
+Ellybridge/run/
+Ellybridge/run-data/
+Ellybridge/.idea/
+Ellybridge/.classpath
+Ellybridge/.project
+Ellybridge/bin/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local test artifacts and source archive
+Ellybridge/forge-*-mdk.zip
+live-test.*.log
